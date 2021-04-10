@@ -1,0 +1,35 @@
+html {
+  font-family: sans-serif;
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0)
+}
+
+
+body {
+  margin: 0;
+  font-family: Poppins, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica Neue, Arial, sans-serif;
+  font-size: .825rem;
+  font-weight: 400;
+  line-height: 1.625;
+  color: #a9acb3;
+  text-align: left;
+  @include theme(background-color, body-bg);
+}
+
+*,
+:after,
+:before {
+  box-sizing: border-box
+}
+
+
+[tabindex="-1"]:focus:not(:focus-visible) {
+  outline: 0 !important
+}
+
+hr {
+  box-sizing: content-box;
+  height: 0;
+  overflow: visible
+}

@@ -1,3 +1,5 @@
+import "./styles/redashmin.scss";
+
 function App() {
   return (
     <div className="App">
